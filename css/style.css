@@ -23,6 +23,7 @@ html {
 }
 img {
     width: 60%;
+    height: 100%;
     object-fit: contain;
 }
 .name {
@@ -90,4 +91,8 @@ img {
 .button2:hover {
     background-color: green;
     font-weight: bold;
+}
+
+.sidebar{
+    height: 50vh;
 }
