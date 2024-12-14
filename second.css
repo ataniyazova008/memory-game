@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    width: 80%;
+    margin: 5vh auto;
+    border: 2px solid black;
+    height: 90vh;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    background-color: red;
+    border-bottom: 1px solid green;
+}
+
+.box {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    width: 10%;
+    border: 1px solid black;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    align-items: center;
+}
+img {
+    width: 90%;
+    object-fit: contain;
+}
